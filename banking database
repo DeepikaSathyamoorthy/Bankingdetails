@@ -1,0 +1,23 @@
+CREATE TABLE `statement` (
+  `date` varchar(255) NOT NULL,
+  `description` varchar(255) NOT NULL,
+  `RefId` int NOT NULL,
+  `withdrawls` double NOT NULL,
+  `deposits` double NOT NULL,
+  `balance` double DEFAULT NULL,
+  PRIMARY KEY (`date`,`description`,`withdrawls`,`deposits`)
+) 
+INSERT INTO `bank_details`.`statement`
+(`date`,
+`description`,
+`RefId`,
+`withdrawls`,
+`deposits`,
+`balance`)
+VALUES
+(<{date: }>,
+<{description: }>,
+<{RefId: }>,
+<{withdrawls: }>,
+<{deposits: }>,
+<{balance: }>);
