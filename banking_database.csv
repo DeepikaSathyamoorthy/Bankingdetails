@@ -1,0 +1,10 @@
+date,description,RefId,withdrawls,deposits,balance
+10/6/2020,"Hostel deposits",6983,0,500,26500
+15/7/2020,"ATM withdrawals",3689,1000,0,36500
+17/6/2020,"electricity bill",5689,1500,0,25000
+20/6/2020,"super market",9687,1000,0,24000
+25/6/2020,"emi car",9638,15000,0,9000
+30/6/2020,"salary ",6935,0,30000,39000
+30/7/2020,"salary ",6987,0,30000,66500
+7/6/2020,"previous balance",3568,0,1000,26000
+7/7/2020,"ATM withdrawal",6398,1500,0,37500
